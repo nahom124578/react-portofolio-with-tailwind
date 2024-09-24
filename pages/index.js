@@ -1,10 +1,12 @@
 import Head from "next/head";
+import resume from "./resume";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
   AiFillTelegram,
 } from "react-icons/ai";
+import Link from "next/link";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.jpg";
@@ -42,12 +44,13 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
-                >
-                  Resume
-                </a>
+              <a
+  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+  href="/resume"
+>
+  Resume
+</a>
+
               </li>
             </ul>
           </nav>
