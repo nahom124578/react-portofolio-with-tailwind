@@ -151,8 +151,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                
                 layout="responsive"
                 src={web3}
               />
@@ -160,8 +159,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+               
                 layout="responsive"
                 src={web4}
               />
@@ -169,8 +167,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+              
                 layout="responsive"
                 src={web5}
               />
@@ -178,8 +175,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+               
                 layout="responsive"
                 src={web6}
               />
