@@ -3,6 +3,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
+  AiFillTelegram,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -15,7 +16,7 @@ import web1 from "../public/system-accessed-by-doctors-fingerprint-260nw-2291512
 import web2 from "../public/eee.jpg";
 import web3 from "../public/00463_05262020_PromiscuousWirelessPacketSnifferProject-1.jpg";
 import web4 from "../public/2066861_96b5_7.jpg";
-import web5 from "../public/web5.png";
+import web5 from "../public/ecom.webp";
 
 import web6 from "../public/sddefault.jpg";
 
