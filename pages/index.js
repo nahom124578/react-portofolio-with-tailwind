@@ -16,11 +16,11 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/system-accessed-by-doctors-fingerprint-260nw-2291512001.webp";
 import web2 from "../public/eee.jpg";
-import web3 from "../public/00463_05262020_PromiscuousWirelessPacketSnifferProject-1.jpg";
+import web3 from "../public/sddefault.jpg";
 import web4 from "../public/2066861_96b5_7.jpg";
 import web5 from "../public/ecom.webp";
 
-import web6 from "../public/sddefault.jpg";
+import web6 from "../public/port.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -134,61 +134,77 @@ export default function Home() {
             
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              />
-            </div>
+            {/* Project 1 */}
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              />
+              <a href="https://github.com/nahom124578/mygit.git" target="_blank" rel="noopener noreferrer">
+                <Image
+                  className="rounded-lg object-cover"
+                  layout="responsive"
+                  src={web1}
+                  alt="Project 1"
+                />
+              </a>
             </div>
+
+            {/* Project 2 */}
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                
-                layout="responsive"
-                src={web3}
-              />
+              <a href=" https://github.com/DB-SQL-PROJECT/DB-SQL.git" target="_blank" rel="noopener noreferrer">
+                <Image
+                  className="rounded-lg object-cover"
+                  layout="responsive"
+                  src={web2}
+                  alt="Project 2"
+                />
+              </a>
             </div>
+
+            {/* Project 3 */}
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-               
-                layout="responsive"
-                src={web4}
-              />
+              <a href="https://github.com/nahom124578/packet-sniffing.git" target="_blank" rel="noopener noreferrer">
+                <Image
+                  className="rounded-lg object-cover"
+                  layout="responsive"
+                  src={web3}
+                  alt="Project 3"
+                />
+              </a>
             </div>
+
+            {/* Project 4 */}
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-              
-                layout="responsive"
-                src={web5}
-              />
+              <a href="https://github.com/yourusername/project4" target="_blank" rel="noopener noreferrer">
+                <Image
+                  className="rounded-lg object-cover"
+                  layout="responsive"
+                  src={web4}
+                  alt="Project 4"
+                />
+              </a>
             </div>
+
+            {/* Project 5 */}
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-               
-                layout="responsive"
-                src={web6}
-              />
+              <a href="https://github.com/ABHKNY-Summer-Projects/ECommerce_Website.git" target="_blank" rel="noopener noreferrer">
+                <Image
+                  className="rounded-lg object-cover"
+                  layout="responsive"
+                  src={web5}
+                  alt="Project 5"
+                />
+              </a>
             </div>
-          </div>
-          <div>
-          <h4 className="py-4 text-teal-600">Contact me</h4>
-          <p>Feel free to contact me for collaborations on web applications, hardware design, or discussions about technology-driven solutions!</p>
-          
+
+            {/* Project 6 */}
+            <div className="basis-1/3 flex-1">
+              <a href="https://github.com/nahom124578/react-portofolio-with-tailwind.git" target="_blank" rel="noopener noreferrer">
+                <Image
+                  className="rounded-lg object-cover"
+                  layout="responsive"
+                  src={web6}
+                  alt="Project 6"
+                />
+              </a>
+            </div>
           </div>
         </section>
       </main>
